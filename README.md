@@ -25,7 +25,7 @@ The code and data for the three datasets are placed in the three folders: ML1M, 
 
 For ML1M, we use the same dataset as in [MELU](https://github.com/hoyeoplee/MeLU). For the other two datasets, as there are no available datasets, we preprocess them ourselves following the same protocol. The processing python script of the original data is placed in the data folder.
 
-Then we show how to run our code, first please enter the folder. For the basic meta-learned recommender system, run:
+Then we show how to run our code, first please enter the code folder. For the basic meta-learned recommender system, run:
 
 ```python
 python maml.py --cuda 0 --rerun --num_epoch 50 --loss 1 --seed 53
