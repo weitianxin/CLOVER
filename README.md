@@ -25,7 +25,7 @@ The code and data for the three datasets are placed in the three folders: ML1M, 
 
 For ML1M, we use the same dataset as in [MELU](https://github.com/hoyeoplee/MeLU). For the other two datasets, as there are no available datasets, we preprocess them ourselves following the same protocol. The processing python script of the original data is placed in the data folder.
 
-Next we show how to run our code, first please enter the folder. Create the folder "log" to save the training log. Create the folder "multi_test_results" to save the trained model.
+Next we show how to run our code, first please enter the folder. Create the folder "log" to save the training log. Create the folder "multi_result_files" to save the trained model.
 
 For the basic meta-learned recommender system, run:
 ```python
