@@ -44,7 +44,7 @@ python maml.py --cuda 0 --rerun --adv 1 --fm --num_epoch 50 --loss 1 --out 0 --o
 python maml.py --cuda 0 --rerun --adv 2 --adv2 1 --fm --num_epoch 50 --loss 1 --out 5 --out2 2 --outer 0 --inner_fc 0 --seed 53 --disable_inner_max --normalize --item_adv
 ```
 
-The hyperparameters need to be finetuned to get better performance. In these commands, "adv" denotes the tradeoff factor of the first loss and adv2 represents the second. loss=1 denotes use the cross-entropy loss. The argument "out" controls the input information to the adversarial network. "disable_inner_max" is to disable the optimization of task T_2 in the inner loop. "disable_inner_adv" is to disable the optimization of task T_1.
+The hyperparameters need to be further finetuned to get better performance. In these commands, "adv" denotes the tradeoff factor of the first loss and adv2 represents the second. loss=1 denotes use the cross-entropy loss. The argument "out" controls the input information to the adversarial network. "disable_inner_max" is to disable the optimization of task T_2 in the inner loop. "disable_inner_adv" is to disable the optimization of task T_1.
 
 ## Acknowledges
 
