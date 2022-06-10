@@ -36,7 +36,7 @@ For our fair adversarial meta-learned recommende system, run:
 
 ```python
 # just the first adversarial loss function with external information
-python maml.py --cuda 0 --rerun --adv 1 --fm --num_epoch 50 --loss 1 --out 5 --outer 0 --inner_fc 0 --seed 53 --disable_inner_max --normalize
+python maml.py --cuda 0 --rerun --adv 5 --fm --num_epoch 50 --loss 1 --out 5 --outer 0 --inner_fc 0 --seed 53 --disable_inner_max --normalize
 
 # just the first adversarial loss function without external information
 python maml.py --cuda 0 --rerun --adv 1 --fm --num_epoch 50 --loss 1 --out 0 --outer 0 --inner_fc 0 --seed 53 --disable_inner_max --normalize
