@@ -47,7 +47,7 @@ python maml.py --cuda 0 --rerun --adv 2 --adv2 1 --fm --num_epoch 50 --loss 1 --
 
 The hyperparameters need to be finetuned to get better performance. In these commands, "adv" denotes the tradeoff factor of the first loss and adv2 represents the second. loss=1 denotes use the cross-entropy loss. The argument "out" controls the input information to the adversarial network. "disable_inner_max" is to disable the optimization of task T_2 in the inner loop. "disable_inner_adv" is to disable the optimization of task T_1.
 
-The final model for each run is the model that has the lowest MAE value on the validation data set. The final results are the average of five independent runs (seeds) with the best validation model.
+The final model for each run is the model that has the lowest MAE value on the validation data set. The final results are the average of five independent runs (seeds) with the best validation model. The AUC metric is tested using a trained model to infer the sensitive attribute with function "fair_fine" in the file.
 
 ## Acknowledges
 
