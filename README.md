@@ -55,7 +55,7 @@ Part of our code references the [MeLU_pytorch](https://github.com/waterhorse1/ME
 
 ## Citation
 If you find this paper or code helpful, please consider cite our paper. Thanks very much.
-
+```
 @inproceedings{wei2022comprehensive,
   title={Comprehensive Fair Meta-learned Recommender System},
   author={Wei, Tianxin and He, Jingrui},
@@ -63,3 +63,4 @@ If you find this paper or code helpful, please consider cite our paper. Thanks v
   pages={1989--1999},
   year={2022}
 }
+```
