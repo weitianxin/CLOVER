@@ -54,5 +54,11 @@ The final results are the average of five independent runs (seeds) with the best
 Part of our code references the [MeLU_pytorch](https://github.com/waterhorse1/MELU_pytorch) code repo. Many thanks for their public code.
 
 ## Citation
-
-If you find this paper helpful, please kindly cite our paper. Thanks very much.
+If you find this paper or code helpful, please consider cite our paper. Thanks very much.
+@inproceedings{wei2022comprehensive,
+  title={Comprehensive Fair Meta-learned Recommender System},
+  author={Wei, Tianxin and He, Jingrui},
+  booktitle={Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+  pages={1989--1999},
+  year={2022}
+}
